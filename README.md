@@ -15,9 +15,9 @@ This repository contains the pharmacokinetic (PK) analysis from my PhD dissertat
 
 ## Background
 
-The vitamin E family comprises eight naturally occurring lipid-soluble antioxidants — four tocopherols and four tocotrienols. While tocotrienols exhibit superior radioprotective and radiomitigative biological activity compared to α-tocopherol (AT), their clinical utility is limited by short plasma half-lives (2–4.4 hours in humans) resulting from poor ATTP affinity.
+The vitamin E family comprises eight naturally occurring lipid-soluble antioxidants, four tocopherols and four tocotrienols. While tocotrienols exhibit superior radioprotective and radiomitigative biological activity compared to α-tocopherol (AT), their clinical utility is limited by short plasma half-lives (2 – 4.4 hours in humans) resulting from poor ATTP affinity.
 
-DTF was computationally designed in the Compadre laboratory (UAMS) by replacing the tridienyl farnesyl tail of DT3 with a mono- or dienyl chain, increasing conformational flexibility and enabling DTF to adopt the bent conformation required for optimal ATTP binding — a conformation that DT3's rigid conjugated double-bond system cannot achieve.
+DTF was computationally designed in the Compadre laboratory (UAMS) by replacing the tridienyl farnesyl tail of DT3 with a mono- or dienyl chain, increasing conformational flexibility and enabling DTF to adopt the bent conformation required for optimal ATTP binding, a conformation that DT3's rigid conjugated double-bond system cannot achieve.
 
 ---
 
@@ -42,7 +42,7 @@ DTF was computationally designed in the Compadre laboratory (UAMS) by replacing 
 | AUClast (µg·h/mL) | 174.4 | 582.6 | ~3.3× |
 | t½ est (h) | 6.5 | 24.5 | ~3.8× |
 
-DTF achieved approximately **3.3× higher systemic exposure (AUC)** and **3.8× longer terminal half-life** compared to DT3 at the same dose. A secondary plasma concentration increase was observed for DTF between 96–192 hours, consistent with enterohepatic recirculation or delayed tissue redistribution — a feature not observed for DT3.
+DTF achieved approximately **3.3× higher systemic exposure (AUC)** and **3.8× longer terminal half-life** compared to DT3 at the same dose. A secondary plasma concentration increase was observed for DTF between 96 – 192 hours, consistent with enterohepatic recirculation or delayed tissue redistribution, a feature not observed for DT3.
 
 ---
 
@@ -90,14 +90,14 @@ source("scripts/pk_statistics.R")
 1. **Higher systemic exposure:** DTF's AUClast (582.6 µg·h/mL) was 3.3× greater than DT3 (174.4 µg·h/mL), indicating significantly improved bioavailability
 2. **Extended half-life:** DTF's terminal half-life (24.5 h) was approximately 3.8× longer than DT3 (6.5 h), consistent with enhanced ATTP binding and slower hepatic clearance
 3. **Higher peak concentration:** DTF achieved a Cmax of 49.0 µg/mL vs 13.0 µg/mL for DT3, exceeding the therapeutic threshold of 5 µM (approximately 2.5 µg/mL) by a wider margin
-4. **Secondary plasma peak:** A secondary increase in DTF plasma concentration was observed at 192 hours, suggesting enterohepatic recirculation or delayed tissue redistribution — not observed for DT3
+4. **Secondary plasma peak:** A secondary increase in DTF plasma concentration was observed at 192 hours, suggesting enterohepatic recirculation or delayed tissue redistribution, not observed for DT3
 5. **Tocopherol-like kinetics:** DTF's PK profile (slow elimination, larger AUC, late recirculation) resembles that of α-tocopherol rather than tocotrienols, consistent with its improved ATTP binding design
 
 ---
 
 ## Clinical Relevance
 
-These pharmacokinetic improvements directly underpin DTF's capacity to function as a **radiomitigator** — an agent that must be administered *after* radiation exposure. DT3 is effective as a radioprotector only when given before or within 2–12 hours of exposure; DTF demonstrates radiomitigation efficacy at 24 hours post-exposure (70% 30-day survival vs 20% in vehicle controls at 8.5 Gy LD80), a window made possible by its extended systemic persistence.
+These pharmacokinetic improvements directly underpin DTF's capacity to function as a **radiomitigator**,  an agent that must be administered *after* radiation exposure. DT3 is effective as a radioprotector only when given before or within 2–12 hours of exposure; DTF demonstrates radiomitigation efficacy at 24 hours post-exposure (70% 30-day survival vs 20% in vehicle controls at 8.5 Gy LD80), a window made possible by its extended systemic persistence.
 
 ---
 
